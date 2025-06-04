@@ -5,11 +5,13 @@ import Casamentos from './pages/Casamentos';
 import Sunsets from './pages/Sunsets';
 import FestasPrivadas from './pages/FestasPrivadas';
 import Contacto from './pages/Contacto';
+import ScrollToTop from './components/ScrollToTop';
 import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/fabio-events">
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

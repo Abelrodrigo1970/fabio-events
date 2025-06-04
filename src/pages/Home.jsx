@@ -28,7 +28,7 @@ const Home = () => {
       <Hero />
       
       {/* About Section */}
-      <section className="section-padding bg-white">
+      <section id="about-section" className="section-padding bg-white">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
