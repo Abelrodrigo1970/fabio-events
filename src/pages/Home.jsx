@@ -1,24 +1,25 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
+import { weddingImages, sunsetImages, privateImages } from '../assets/images';
 
 const Home = () => {
   const services = [
     {
       title: 'Casamentos Exclusivos',
       description: 'Planeamento completo para o seu dia especial, com atenção a cada detalhe.',
-      image: 'https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: weddingImages[0].src,
       link: '/casamentos',
     },
     {
       title: 'Sunset Parties',
       description: 'Experiências únicas ao pôr do sol em locais deslumbrantes.',
-      image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: sunsetImages[0].src,
       link: '/sunsets',
     },
     {
       title: 'Festas Privadas',
       description: 'Eventos corporativos e celebrações personalizadas e exclusivas.',
-      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: privateImages[0].src,
       link: '/festas-privadas',
     },
   ];
