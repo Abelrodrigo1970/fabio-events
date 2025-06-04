@@ -15,6 +15,7 @@ export { default as reactLogo } from './common/react.svg';
 import wedding1 from './weddings/wedding1.jpg';
 import wedding2 from './weddings/wedding2.jpg';
 import wedding3 from './weddings/wedding3.jpg';
+import abelPhoto from './weddings/abel.JPG';
 
 // ===== IMAGENS DE SUNSETS =====
 // Eventos ao pôr do sol
@@ -82,6 +83,11 @@ export const privateImages = [
     caption: 'Evento empresarial com serviço premium'
   }
 ];
+
+// ===== IMAGENS DE TESTEMUNHOS =====
+export const testimonialImages = {
+  abel: abelPhoto
+};
 
 // ===== FUNÇÃO HELPER PARA LAZY LOADING =====
 export const getImagePath = (category, imageName) => {

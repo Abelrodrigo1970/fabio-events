@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Gallery from '../components/Gallery';
-import { weddingImages } from '../assets/images';
+import { weddingImages, testimonialImages } from '../assets/images';
 
 const Casamentos = () => {
   // Usar as imagens importadas do index.js
@@ -48,7 +48,7 @@ const Casamentos = () => {
     {
       name: 'Abel & Regina',
       text: 'Profissionalismo exemplar e atenção aos detalhes incomparável. O nosso casamento foi verdadeiramente mágico graças ao trabalho excepcional da equipa.',
-      image: 'src/assets/images/weddings/abel.JPG'
+      image: testimonialImages.abel
     },
     {
       name: 'Mariana & João',
