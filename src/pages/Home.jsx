@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import { weddingImages, sunsetImages, privateImages } from '../assets/images';
+import { weddingImages, sunsetImages, privateImages} from '../assets/images';
 
 const Home = () => {
   const services = [
@@ -51,7 +51,8 @@ const Home = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+           //     src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src='../assets/images/home/home-1.jpg'
                 alt="Elegant Event Setup"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
