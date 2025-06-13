@@ -51,9 +51,9 @@ const Home = () => {
             </div>
             <div className="relative">
               <img
-           //     src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                src='../assets/images/home/home-1.jpg'
+                src={weddingImages[1].src}
                 alt="Elegant Event Setup"
+              
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-lg"></div>
