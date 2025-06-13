@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/70">
           <img
             src={placeholders.hero}
-            alt="Elegant Event"
+            alt="Fábio Fernandes - Agenciamento VIP de Eventos"
             className="w-full h-full object-cover"
             loading="eager"
           />

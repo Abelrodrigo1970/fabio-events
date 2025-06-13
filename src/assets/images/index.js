@@ -7,8 +7,7 @@ export { default as reactLogo } from './common/react.svg';
 
 // ===== IMAGENS HERO =====
 // Imagens principais da página inicial
-// export { default as heroBanner } from './hero/hero-banner.jpg';
-// export { default as heroBackground } from './hero/hero-background.jpg';
+import logoFabio from './home/logo_fabio.png';
 
 // ===== IMAGENS DE CASAMENTOS =====
 // Galeria de casamentos e cerimônias
@@ -97,7 +96,7 @@ export const getImagePath = (category, imageName) => {
 // ===== PLACEHOLDER IMAGES =====
 // URLs de imagens temporárias para desenvolvimento
 export const placeholders = {
-  hero: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+  hero: logoFabio,
   wedding: wedding1,
   sunset: sunset1,
   private: private1
